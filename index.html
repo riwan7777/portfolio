@@ -2,55 +2,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed Rizwan Bilagali - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            padding: 50px 0;
-        }
-        h1 {
-            margin: 0;
-            font-size: 3em;
-            color: #333;
-        }
-        p {
-            font-size: 1.2em;
-            color: #555;
-        }
-        section {
-            margin-top: 40px;
-        }
-        .skills {
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Rizwan Bilagali - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 30px 10px;
+    }
+    section {
+      margin: 40px 20px;
+    }
+    .skills {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .skill {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 150px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>Mohammed Rizwan Bilagali</h1>
-    <p>Web Developer | HTML | CSS | JavaScript</p>
+  <h1>Mohammed Rizwan Bilagali</h1>
+  <p>Web Developer | HTML | CSS | JavaScript</p>
 </header>
 
-<section class="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+  </div>
 </section>
+
+<section>
+  <h2>About Me</h2>
+  <p>Hello! I'm Mohammed Rizwan Bilagali, a passionate web developer with skills in building simple and beautiful websites. Always learning and growing!</p>
+</section>
+
+<footer>
+  <p>Contact me: rizwan@example.com</p>
+</footer>
 
 </body>
 </html>
